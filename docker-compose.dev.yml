@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app:
     build: .
-    container_name: django
+    container_name: django-dev
     restart: always
     env_file:
       - django.env
